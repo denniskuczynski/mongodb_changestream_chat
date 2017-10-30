@@ -12,7 +12,7 @@ mvn package
 ## To Demo
 In two terminal windows startup two instances of the Java server
 ```
-export PORT=9001; java -cp target/classes:target/dependency/* com.example.server.Main
+export PORT=9000; java -cp target/classes:target/dependency/* com.example.server.Main
 export PORT=9001; java -cp target/classes:target/dependency/* com.example.server.Main
 ```
 

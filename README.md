@@ -10,6 +10,8 @@ mvn package
 ```
 
 ## To Demo
+Start a local 3 node MongoDB replica set on port 3000, 3001, and 3002.
+
 In two terminal windows startup two instances of the Java server
 ```
 export PORT=9000; java -cp target/classes:target/dependency/* com.example.server.Main
